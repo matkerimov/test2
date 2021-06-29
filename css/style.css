@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Philosopher", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  padding: 200px 0;
+  position: relative;
+}
+.menu__container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.menu__subtitl {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #DC780B;
+  opacity: 0.7;
+  text-align: center;
+}
+.menu__title {
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 24px;
+  color: #150C01;
+  text-align: center;
+}
+.menu__desk {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150C01;
+  opacity: 0.7;
+  text-align: center;
+}
+.menu__product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.menu__card {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 75px 10px 10px 10px;
+  width: 360px;
+}
+.menu__card__box {
+  padding: 0 25px 25px 25px;
+}
+.menu__card__words {
+  display: flex;
+  margin-top: 7px;
+}
+.menu__card__title {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  color: #150C01;
+  width: 146px;
+  margin-right: 125px;
+}
+.menu__card__svg {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  color: #150C01;
+  width: 36px;
+}
+.menu__card__desk {
+  font-size: 16px;
+  line-height: 24px;
+  color: #150C01;
+  opacity: 0.7;
+  width: 310px;
+  margin: 20px 0;
+}
+.menu__card__items {
+  display: flex;
+}
+.menu__card__button {
+  margin-right: 186px;
+}
+.menu__link {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DC780B;
+  padding: 12px 30px;
+  border: 1px solid #DC780B;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 200px;
+  margin: auto;
+}
+
+.take {
+  padding: 73px 0;
+}
+.take__container {
+  background: #FBF1E7;
+  display: flex;
+  align-items: center;
+  height: 518px;
+}
+.take__content {
+  margin: 114px 0 129px 247px;
+}
+.take__subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #DC780B;
+  opacity: 0.7;
+  margin-bottom: 5px;
+}
+.take__title {
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 41px;
+  color: #150C01;
+  width: 534px;
+}
+.take__desk {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150C01;
+  opacity: 0.7;
+  width: 555px;
+  margin: 29px 0 39px;
+}
+.take__icons {
+  display: flex;
+}
+.take__apple {
+  margin-right: 30px;
+}
+.take__img {
+  margin-left: 70px;
+}
+
+/*# sourceMappingURL=style.css.map */
